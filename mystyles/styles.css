@@ -169,6 +169,7 @@ i {
     text-transform: uppercase;
     color: orangered;
     font-family: 'Abril Fatface', 'cursive';
+    animation: anim  8s ease-in ;
     
 }
 .img-galllery {
@@ -205,6 +206,7 @@ i {
     text-transform: uppercase;
     color: orangered;
     font-family: 'Abril Fatface', 'cursive';
+    animation: anim  5s ease-in ;
     
 }
 
@@ -247,4 +249,423 @@ i {
     padding: .8rem;
     margin-left: 45rem;
     margin-top: .6rem;
+}
+
+.about-us {
+    display: flex;
+    width: 100%;
+}
+.about-us-img {
+    width: 50%;
+}
+
+.about-us-heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    color: orangered;
+    font-family: 'Abril Fatface', 'cursive';  
+    animation: anim  5s ease-in ;
+}
+
+.about-us-paragraph {
+    font-family: 'Abril Fatface', 'cursive';
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    text-align: center;      
+}
+
+.last-part {
+    background-color: #0f061a;
+    color: white;
+    
+}
+.last-part-section-1 {
+    display: flex;
+    width: 100%;
+    
+}
+.iqbal-last{
+    width: 25%;
+    margin-top: 3rem;
+    
+}
+
+.support {
+    width: 25%;
+    margin-top: 3rem;
+
+}
+
+.contact-us {
+    width: 25%;
+    margin-top: 3rem;
+
+}
+
+.sign-up {
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.last-heaading {
+    border: .4px solid white;
+    background-color: white;
+    color: black;
+    width: 8rem;
+    padding: .8rem;
+    height: 2.5rem;
+}
+
+.support-heading {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    
+}
+.support-list, .support-item {
+    list-style-type: none;
+    
+    
+}
+.support-item {
+    margin: 2.6rem;
+}
+.contact-us-heading {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+
+}
+.contact-us-list, .contact-item {
+    list-style-type: none;
+
+}
+
+.contact-item {
+    margin: 2.6rem;
+}
+.sign-up-heading {
+    font-size: 1.4rem;
+}
+.sign-up-list, .sign-up-item {
+    list-style-type: none;
+}
+.sign-up-btn, .sign-up-item, .sign-up-input {
+    margin: 1rem;
+}
+.sign-up-item {
+    margin-top: 1.8rem;
+}
+.sign-up-btn {
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+    width: 10rem;
+    background-color: orangered;
+    font-weight: bolder;
+    height: 1.3rem;
+
+}
+.social-icon {
+    display: flex;
+}
+
+.social-icon, .social-link {
+    list-style-type: none;
+}
+.social-icon i {
+    color: white;
+    font-size: 1.1rem;
+    margin-right: .3rem;
+}
+.love {
+    text-align: center;
+}
+
+.love i {
+    font-size: 1rem;
+    margin: .5rem;
+    color: tomato;
+}
+
+/* end of footer  */
+/* making it responsive */
+
+@media(max-width:1200px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav-list, .nav-item, .nav-item-3 {
+        margin-left:  1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 12rem;        
+        
+    }
+    .details {
+        display: flex;
+        margin-left: 6rem; 
+        
+    }
+    .iqbal {
+        padding: .2rem .2rem;
+        margin-left: 1rem;
+    }
+    
+    .main-img {
+        margin-top: .3rem;
+        background: linear-gradient(to top, rgba(34, 32, 41, .5),
+         rgba(34, 32, 41, .7)), url(/images/background-img.jpg)  ;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 70vh; 
+    }
+
+    .img-words {
+        padding-top: 8rem;
+        padding-left: 2rem;
+    }
+    .welcome {  
+        font-size: 1.3rem;       
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        
+    }
+
+    .academic {
+        margin-left: .1px;
+        
+}
+.welcome-main-details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.welcome-img {
+    width: 100%;
+}
+.span-name {
+    margin-left:3rem;
+    padding: 2rem;
+    /* margin-top: 8rem; */
+    text-align: center;
+}
+.span-post {
+    text-align: center;  
+    margin-left:15rem;
+    margin-right: 7rem;
+    padding: 2rem; 
+}
+
+.register {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+}
+
+.register-paragraph {
+    margin-left: 2rem;
+    padding: .4rem;  
+    font-size: 1.3rem;
+
+}
+
+.register-btn {
+       height: 2rem;
+    width: 7rem;
+    padding: .5rem;
+    margin-left: 5rem;
+    
+
+}
+
+.img-galllery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.img-item {
+    width: 25%;
+}
+
+.sign-up-btn {
+    border-radius: .4rem;
+    width: 7rem;
+    height: 1.3rem;
+
+}
+
+.sign-up-input {
+    width: 1rem;
+}
+.sign-up-btn, .sign-up-item, .sign-up-input {
+    margin:.6rem;
+}
+
+.support-heading {
+    font-size: 1.4rem;
+    
+}
+
+.contact-us-heading {
+    font-size: 1.4rem;
+    
+}
+.follow-us {
+    margin-top:.5rem;
+}
+.iqbal-last {
+    margin-left: .5rem;
+}
+
+}
+
+
+@media(max-width:500px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav-list, .nav-item, .nav-item-3 {
+        margin-left:  .8rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: 14rem;        
+        
+    }
+    .details {
+        display: flex;
+        margin-left: 6rem; 
+        
+    }
+    .iqbal {
+        padding: .2rem .2rem;
+        margin-left: 1rem;
+    }
+    
+    .main-img {
+        margin-top: .3rem;
+        background: linear-gradient(to top, rgba(34, 32, 41, .5),
+         rgba(34, 32, 41, .7)), url(/images/background-img.jpg)  ;
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 70vh; 
+    }
+
+    .img-words {
+        padding-top: 8rem;
+        padding-left: 2rem;
+    }
+    .welcome {  
+        font-size: 1.3rem;       
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        
+    }
+
+    .academic {
+        margin-left: .1px;
+        
+}
+.welcome-main-details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.welcome-img {
+    width: 100%;
+}
+.span-name {
+    margin-left:3rem;
+    padding: 2rem;
+    /* margin-top: 8rem; */
+    text-align: center;
+}
+.span-post {
+    text-align: center;  
+    margin-left:15rem;
+    margin-right: 7rem;
+    padding: 2rem; 
+}
+
+.register {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+}
+
+.register-paragraph {
+    margin-left: 1.8rem;
+    padding: .4rem;  
+    font-size: 1rem;
+
+}
+
+.register-btn {
+     height: 2rem;
+    width: 7.5rem;
+    padding: .5rem;
+    margin-left: 2rem;
+    
+
+}
+
+.img-galllery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.img-item {
+    width: 25%;
+}
+
+.sign-up-btn {
+    border-radius: .4rem;
+    width: 5rem;
+    height: 1.3rem;
+
+}
+
+.sign-up-input {
+    width: 1rem;
+}
+.sign-up-btn, .sign-up-item, .sign-up-input {
+    margin:.6rem;
+}
+
+.support-heading {
+    font-size: 1.2rem;
+    
+}
+.contact-us-heading {
+    font-size: 1.2rem;
+    
+}
+.follow-us {
+    margin-top:.5rem;
+}
+
+.contact-item {
+    margin: 2rem;
+}
 }
